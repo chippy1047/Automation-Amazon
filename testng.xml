@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="chip">
+    <listeners>
+        <listener class-name="commons.Driver"></listener>
+    </listeners>
+    <test name="TestCase" >
+        <classes>
+            <class name="TestScript.LoginTestS"></class>
+            <class name="TestScript.InvalidloginTest"></class>
+            <class name="TestScript.SearchTestScript"></class>
+            <class name="TestScript.ProductDetailsTest"></class>
+            <class name="TestScript.RemoveFromCartTestScript"></class>
+            <class name="TestScript.ValidPincodeTestScript"></class>
+            <class name="TestScript.InvalidPincodeTestScript"></class>
+            <class name="TestScript.SortPriceHightoLowTestScript"></class>
+            <class name="TestScript.NaviToPrdtDetailPageTest"></class>
+            <class name="TestScript.SaveForLaterTest"></class>
+            <class name="TestScript.AddCartTestScript"></class>
+            <class name="TestScript.PasswordChangeTestScript"></class>
+        </classes>
+    </test>
+</suite>
